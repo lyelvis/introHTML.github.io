@@ -3,7 +3,7 @@ ITNRO TO HTML:
 HTML stands for HyperText Markup Language. (text that can link to other texts)
 - made up of tags
 
-homepage always should be name index.html (beause of server reasons)
+homepage always should be name index.html (because of several reasons)
 
 Workspace Folder: (root directory)
     index.html - homepage 
@@ -35,8 +35,31 @@ Workspace Folder: (root directory)
         *** never mix inline and stylesheet ***
         *** always use stylesheets ! ***
 
-         
+        Classes and ID: 
+            id - should be unique and only represent one thing (represented by a #idname )
+            class - you can have it represent multiple tags (represent by a .classname )
+                more common
+                you can use it once or use it multiple times rather than using id. 
+        
 
+        Box Model:
+            Maring: 
+                If the margin property has one value: margin: 25px; 
+                all four margins are 25px
+                Margin creates space outside of the container.
+            Border: 
+                3 properties: 
+                    border-width: border-left-wdith: border-right-width:
+                    border-color: border-left-color: border-right-color:
+                    border-style:
+                Order of styles matter
+
+            Padding:
+                Creates an empty space with the background color
+                Creates space inside of your container. 
+
+            Order is always: margin boarder padding box (out to in)
+                or just do inspect
 
 
 File organization:

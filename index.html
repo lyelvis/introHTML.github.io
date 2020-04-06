@@ -78,17 +78,56 @@
     <img src="https://www.landolakes.com/RecipeManagementSystem/media/Recipe-Media-Files/Recipes/Retail/x17/2019_DF_Retail_Butter-Burger_20912_600x600.jpg?ext=.jpg" alt="picture of a burger">
 
 
-    <h1>Divs and Spans </h1>
+    <h1>Divs and Spans (with classes!) </h1>
     <p>helps separate our content</p>
 
+
     <!-- div's height will grow to automatically fit the content -->
-    <div>
-        <p>I'm inside a div! By default it takes 100% of the width</p>
+    <!-- div helps seperate our content -->
+    <div class="top-section">
+        <p>I'm inside a div! By default it takes 100% of the width. And the height is 0, but it 
+            grows depending on the content size. However we can manage the height in the stylesheet.
+        </p>
     </div>
 
-    <div>
-        <p>this is div number 2!</p>
+    <div class="bottom-section">
+        <p class="intro">this is div number 2!</p>
+        <p>
+        <em><span>Phasellus efficitur turpis et dui</span><strong>feugiat</strong>, sit amet lacinia felis aliquam.</em> 
+        Proin euismod, lectus eu venenatis ultrices, nulla magna convallis mi, a tincidunt nibh
+        lorem ac dui. Suspendisse malesuada feugiat felis quis vulputate. Nulla a tortor nec 
+        diam finibus pulvinar. Curabitur dictum tincidunt facilisis. Pellentesque molestie dui
+        nisl, eu pharetra ex placerat sed. Pellentesque ultrices elementum commodo. Cras vehicula 
+        quis ligula quis tincidunt. Nunc quis feugiat dolor, et dictum erat. Pellentesque nulla libero,
+        finibus eu pulvinar ac, fringilla eu arcu. Aenean ac pharetra purus. Nam vel bibendum nunc. 
+        Suspendisse at dolor erat. Duis placerat vitae ante eu vestibulum. Suspendisse potenti.
+        Sed eu tristique lectus. 
+        </p>
     </div>
+
+    <!-- div are block level elements! They create a new break in the paragraphs  -->
+    <!-- paragraph and divs are both block level elements, so they stack ontop of one another -->
+    <p>
+    <em><span>Phasellus efficitur turpis et dui</span><strong>feugiat</strong>, sit amet lacinia felis aliquam.</em> 
+    Proin euismod, lectus eu venenatis ultrices, nulla magna convallis mi, a tincidunt nibh
+    lorem ac dui. Suspendisse malesuada feugiat felis quis vulputate. Nulla a tortor nec 
+    diam finibus pulvinar. <div>Curabitur dictum tincidunt facilisis. Pellentesque molestie dui
+    nisl, eu pharetra ex placerat sed.</div>Pellentesque ultrices elementum commodo. Cras vehicula 
+    quis ligula quis tincidunt. Nunc quis feugiat dolor, et dictum erat. Pellentesque nulla libero,
+    finibus eu pulvinar ac, fringilla eu arcu. Aenean ac pharetra purus. Nam vel bibendum nunc. 
+    Suspendisse at dolor erat. Duis placerat vitae ante eu vestibulum. Suspendisse potenti.
+    Sed eu tristique lectus. 
+    </p>
+
+    <h1>CSS Box Model</h1>
+    <div class="box">
+        <p>
+        Pellentesque nulla libero, finibus eu pulvinar ac, fringilla eu arcu. Aenean ac 
+        pharetra purus. Nam vel bibendum nunc. Suspendisse at dolor erat. Duis placerat 
+        vitae ante eu vestibulum. Suspendisse potenti. Sed eu tristique lectus.
+        </p>
+    </div>
+    <p>vitae ante eu vestibulum. Suspendisse potenti. Sed eu tristique lectus.</p>
 
 
 </body>

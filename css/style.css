@@ -10,14 +10,79 @@ p{
     color: #000000; /* changes all paragraph tag text color */
 }
 
+.intro{
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+}
+
 /* to select all H1 TAGS  */
 h1{
     font-size: 70px;
     color: #000000;
+    /* background: grey; */
 }
 
 div{
     background: grey;
-    width: 500px;
-    height: 500px;
+    width: 500px; /* custom the width size */
+    /*height: 500px;  the div size */
+}
+
+span{
+    color: yellow;
+    font-size: 40px;
+}
+
+/* dot represents class */
+.top-section{
+
+}
+
+.bottom-section{
+
+}
+
+
+/* margin
+   border
+   padding
+ */
+.box{
+    background: yellow;
+    width: 300px;
+
+    margin: 50px; /* pushes things away all 4 sides*/ 
+    /* margin-top: 50px;
+    margin-left: 100px; 
+    margin-bottom: 200px; */
+
+    /* all around border  */
+    border-width: 5px;
+    border-color: rgb(255, 0, 255);
+    border-style: solid;
+
+
+    /* specifiy which border */
+    border-left-width: 5px;
+    border-left-color: red;
+    border-left-style: solid;
+
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-right-color: green;
+
+    /* padding also creates empty space  */
+    padding: 100px 25px; /* top and bottom | left and right */
+    padding: 50px 100px 300px 25px; 
+          /* top right bottom left */
+    padding:100px; /* all four sides */
+
+
+    /* to calculate the width you have to find all margin, border-width, and padding  */
+    /* 400+50+50+5+10+100+25 = 540*/
+}
+
+h1{
+    margin-left:50px;
 }
