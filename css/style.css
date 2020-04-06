@@ -1,0 +1,23 @@
+/* to select the body tag */
+body{
+    background-color: antiquewhite; /* changes the body background color*/
+    color: #000000; /* changes the text color */
+    font-size: 21px; /* increases all the text size */
+}
+
+/* to select ALL paragraph tag */
+p{
+    color: #000000; /* changes all paragraph tag text color */
+}
+
+/* to select all H1 TAGS  */
+h1{
+    font-size: 70px;
+    color: #000000;
+}
+
+div{
+    background: grey;
+    width: 500px;
+    height: 500px;
+}
