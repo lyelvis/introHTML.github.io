@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--extra information-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title> <!--tab title, and google search finder-->
+    <!-- link our css file with our stylesheet -->
+    <!-- link rel = basically tells where this link is going to  -->
+    <!-- rel is short for relationship  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!--information in body tag will show up on the webpage-->
+<body>
+
+    <!-- semicolon means rule is finished  -->
+    <!-- can also use the hexidecimal for the colors like #FF0000 = red  or #0000FF = blue -->
+    <h1>My First Website!</h1>
+
+    <!-- they are all bold and different sizes, most important is 1 ... 6  ONLY 1 TO 6-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!--paragraph tag CREATES new line -->
+    <!--<strong> stands for emphasis - this makes my text italic ! -->
+    <!-- <b> does bold, however does not hold meaning behind them. only for visual -->
+    <!-- DO NOT USE <b> and <i> -->
+    <p><strong>Dummy text! don't worry about what this says!<em>consectetur adipiscing elit.</em></strong>
+        Maecenas at congue lectus, vel cursus orci. Integer fermentum massa est, nec ultrices augue lacinia non. 
+        Aliquam erat volutpat. Vestibulum suscipit nibh ac eros blandit dignissim. Morbi fermentum convallis
+        orci non ultrices. Etiam sodales est augue. Aliquam sed massa justo. Ut vel fermentum erat, vel 
+        pretium ipsum. Nam vitae diam tempus, blandit mi vitae, pharetra tortor. In varius, elit semper auctor
+        porttitor, sem nulla imperdiet justo, at scelerisque nulla arcu sit amet magna. Morbi dignissim justo 
+        ex, eget porta ex blandit eget. Phasellus laoreet eleifend nisi vel dapibus.
+    </p>
+
+    <!--<em> stands for emphasis - this makes my text italic ! -->
+    <!-- <i> also does italic, but there is no meaning behid them it only has visualy representation -->
+    <!-- DO NOT USE <b> and <i> -->
+    <p><em>Phasellus efficitur turpis et dui <strong>feugiat</strong>, sit amet lacinia felis aliquam.</em> 
+        Proin euismod, lectus eu venenatis ultrices, nulla magna convallis mi, a tincidunt nibh
+        lorem ac dui. Suspendisse malesuada feugiat felis quis vulputate. Nulla a tortor nec 
+        diam finibus pulvinar. Curabitur dictum tincidunt facilisis. Pellentesque molestie dui
+        nisl, eu pharetra ex placerat sed. Pellentesque ultrices elementum commodo. Cras vehicula 
+        quis ligula quis tincidunt. Nunc quis feugiat dolor, et dictum erat. Pellentesque nulla libero,
+        finibus eu pulvinar ac, fringilla eu arcu. Aenean ac pharetra purus. Nam vel bibendum nunc. 
+        Suspendisse at dolor erat. Duis placerat vitae ante eu vestibulum. Suspendisse potenti.
+        Sed eu tristique lectus. 
+    </p>
+
+    <!-- starting the a tag -->
+    <h1>Links is the anchor tag </h1>
+    <h2>it is a attribute, always give it a href=""</h2>
+    <h2>href means hypertext reference</h2>
+    <!-- always include the http part or it will look at your local device and search for it-->
+    <p><strong><a href="http://www.google.com">Google?</a></strong> you want to look something up? 
+    click on the link!</p>
+    <!-- page 2 is in your local machine therefore you do not have to include it -->
+    <p><strong><a href="page2.html">page2</a></strong> this will take you to your 2nd hmtl page</p>
+
+
+    <h1>Images</h1>
+    <h2>we are going to be learning how to inserts images</h2>
+    <p>images does not need a closing tag, like meta tags don't need to be closed.</p>
+    <p>the alt is basically if the image does not load it will replace it at that location
+        it should describe your picture
+    </p>
+    <img src="img/logo.png" alt="this will be a replacement">
+    <!-- alternative text is very important, screen readers, images that don't load, or other problems -->
+    <!-- it is very important because it should describe your photo -->
+    <p>you can also use the internet pictures, but you will need to inlcude the entire link<br>
+    something like this here: <br><br>
+    https://www.landolakes.com/RecipeManagementSystem/media/Recipe-Media-Files/Recipes/Retail/x17/2019_DF_Retail_Butter-Burger_20912_600x600.jpg?ext=.jpg</p>
+    <img src="https://www.landolakes.com/RecipeManagementSystem/media/Recipe-Media-Files/Recipes/Retail/x17/2019_DF_Retail_Butter-Burger_20912_600x600.jpg?ext=.jpg" alt="picture of a burger">
+
+
+    <h1>Divs and Spans </h1>
+    <p>helps separate our content</p>
+
+    <!-- div's height will grow to automatically fit the content -->
+    <div>
+        <p>I'm inside a div! By default it takes 100% of the width</p>
+    </div>
+
+    <div>
+        <p>this is div number 2!</p>
+    </div>
+
+
+</body>
+</html>
