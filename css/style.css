@@ -1,6 +1,7 @@
 /* to select the body tag */
 body{
     background-color: antiquewhite; /* changes the body background color*/
+    /* background-image: url(../img/oriental-tiles.png); */
     color: #000000; /* changes the text color */
     font-size: 21px; /* increases all the text size */
 }
@@ -50,8 +51,17 @@ span{
  */
 .box{
     background: yellow;
-    width: 300px;
 
+    background-image: url(../img/logo.png); 
+    width: 600px;
+
+    /* repeating pattern */
+    background-repeat: no-repeat;
+
+
+
+
+    
     margin: 50px; /* pushes things away all 4 sides*/ 
     /* margin-top: 50px;
     margin-left: 100px; 
@@ -83,6 +93,3 @@ span{
     /* 400+50+50+5+10+100+25 = 540*/
 }
 
-h1{
-    margin-left:50px;
-}

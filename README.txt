@@ -22,7 +22,7 @@ Workspace Folder: (root directory)
         <em></em> = <i> , but we NEVER use <i> tag! 
         <strong></strong> = <b> the bold tag, but we NEVER use it! 
 
-    css: - stylesheet (the look of ur webpage)
+    css: - cascading stylesheet (the look of ur webpage)
         We use the style="" <- this is called a inline style, avoid USING THIS! 
         We use hexidecimal for the color of the font because we can change the hue of the color.
         font-family changes the text style.
@@ -60,6 +60,25 @@ Workspace Folder: (root directory)
 
             Order is always: margin boarder padding box (out to in)
                 or just do inspect
+
+    Background Imgs: (the more padding you have, the more background you have)
+        background-repeat: where and how you want it to repeat or   
+            if you don't want it to repeat.
+                repeat-x;
+                repeat-y;
+                no-repeat;
+                round;
+        background-size:
+            auto; - is default
+            contains; - you can see the entire image (but it will repeat if there is empty space)
+            cover; - covers the entire div! so it grows or shrink porpotionally
+                      does not repeat itself!
+                      ***becareful of the padding tho, because it will stretch your image***
+        background-position:
+            top-left; - this is the default.
+            center; - center's the picture 
+            right-bottom - readjust the picture the picture. 
+
 
 
 File organization:
