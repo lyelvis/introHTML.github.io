@@ -79,6 +79,58 @@ Workspace Folder: (root directory)
             center; - center's the picture 
             right-bottom - readjust the picture the picture. 
 
+    Styling Text:
+        font-size: 70px; - sizing of your fonts
+        font-family: sans-serif; - the style of your fonts (these are depending on what computer you have)
+            some systems like mac don't have Calibri; 
+            Futura; is a mac font style, but PC's don't have it. 
+            ***to stop this from happening you can do a system stack***
+            ****basically the comma is a system stack, it keeps loading the next font style *****
+    
+            font-family: Futura, sans-serif;
+            Link - http://wwww.cssfontstack.com - tell you what font on computer runs on.
+
+            font-style: oblique; // fake italic
+            font-style: italic; 
+
+            font-weight: bolder; //one size up from what your font weight is. 
+            font-weight: bold; //doesn't matter it'll just be bold
+            font-wieght: lighter; //once size down from what your font weight is. 
+
+            if font is more than one word, put them in quotes like this: 'Times New Roman','Segoe UI',...etc
+
+            *** all text have margin top and margin bottom. They are automatically applied when you create them***
+            Spacing: all h1, p, have automatic spacings. To adjust this we use the margin element.
+                margin-top: 0px; 
+                margin-bottom: 0px; 
+
+                Space between your lines - 
+                    line-height: 40px; //equally distributes the line height to the top and bottom. 
+                        therefore 20px to the top and 20 to the bottom.
+                        DON'T USE px. use the bottom vvvvvvvvvvvv
+                        ****Using line-height: wiht a number; basically applies to your spacing depending on your
+                        font-size, it equally distributes it to the top and bottom.
+                    line-height: 1; // line height of 1 makes it equal to your font-size:
+                    line-height: 1.4; // these numbers applies to your spacing depending on your font-size. 
+                    line-height: 2; //basically is a double space. 
+
+            text-align: left; right;
+
+            text-decoration: line-through;
+            text-decoration: underline;
+            text-decoraton: overline; 
+            text-decoration: none; //removes features
+            
+            text-transform: capitalize; lowercase; none; uppercase;
+                capitalize - only caps the first letter of each word. 
+                uppercase - every letter is uppercase. 
+                
+            
+
+
+
+        color: #3747b3;
+
 
 
 File organization:

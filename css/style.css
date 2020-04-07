@@ -35,13 +35,9 @@ span{
     font-size: 40px;
 }
 
-/* dot represents class */
-.top-section{
 
-}
-
-.bottom-section{
-
+a{
+    text-decoration: none;
 }
 
 
