@@ -35,9 +35,10 @@ span{
     font-size: 40px;
 }
 
-
 a{
+    color: orange;
     text-decoration: none;
+    font-size: larger;
 }
 
 
