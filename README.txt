@@ -318,6 +318,31 @@ Colors in CSS
         if you add the a into hsla = a is the same for rgba so it manages the opacity.
 
 
+DIVs
+    often div classes are named container or wrapper
+
+    HTML
+        <div class="container"> </div>
+        <div class="wrapper"> </div>
+
+    CSS
+        .container {
+            background: white;
+            width: 70%; // if you put percentage, it will always adjust to your screen size rather than always being fixed at 600px
+            *** if you have margin-right and left set to auto, it will center the container 
+            *** only works for right and left, can't do for top and bottom
+            margin-left: auto;
+            margin-right: auto;
+            **** or you can write *****
+            margin: 0 auto; 
+
+            max-width: 1000px; // can't get bigger than 1000px 
+        }
+
+
+
+
+
         
 
 

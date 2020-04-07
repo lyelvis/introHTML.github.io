@@ -1,0 +1,44 @@
+body{
+    background-color: #cde7b0;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 18px;
+    /* by default browser gives you 8px all around, so we want to remove it  */
+    margin: 0; 
+}
+
+header{
+    background-color: #59594a;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.container{
+    width: 80%; /* 80% of the screen*/
+    margin: 0 auto; /* 0 for top and bottom | auto left and right */
+
+}
+
+section {
+    float: left;
+    width: 70%; /* 70% of 80% of the container */
+    margin-bottom: 100px;
+
+}
+
+
+aside{
+    float: right;
+    width: 25%; /* 25% of 80% of the container */ 
+}
+
+footer{
+    clear: both; /* allows it to jump to the bottom*/
+    background-color: #7286a0;
+    padding: 50px 0;
+    text-align: center;
+
+}
