@@ -283,7 +283,39 @@ Floats & Clears
         clear: both; // have the text no wrap around imgs
     }
 
-    clear:both, always forces a new line!
+    clear:both, always forces a new line! only works with float:
+    clear:right; focuses things that float to the right
+    clear:left; focuses things that float to the left.
+
+
+
+Colors in CSS
+    HEX, RGB, and HSL
+
+    hexidecimal
+        background: #RRGGBB values , scale from 0->9 A->F
+            example - background: #FFFFFF; = white
+                      background: #000000; = black
+                      background: #8fdb83; = light green
+
+    RGB values
+        background: rgb(143, 219, 131); = light green as well 
+        
+        rgba - a stands for alpha, the transparency, values are from 0 to 1
+        red green blue alpha 
+
+        background: rgba(255, 0, 0, 0.5); = the .5 means 50% opacity, 
+            the higher the a number is the less transparency it will be. 
+
+        if you use rgb you can also adjust the opacity by using:
+        opacity: 0-1; //values are from 0 to 1. 
+
+    HSL
+        stands for: Hue Saturation Lightness
+        the lower the saturation, the more grey the color will look
+        Lightness = 0% is black 100% white
+        background: hsl(360, 100%, 50%);
+        if you add the a into hsla = a is the same for rgba so it manages the opacity.
 
 
         
